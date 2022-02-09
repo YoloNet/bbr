@@ -9,7 +9,7 @@ echo ' .......................................................... '
 echo '                     BBR By YOLO NET                        '
 echo ''
 echo ''
-echo '                         Telegram                           '
+echo '                         Telegram @rayyolo                  '
 echo ''
 echo '                       Tunggu 5 Saat!                       '
 echo ' .......................................................... '
@@ -17,7 +17,7 @@ sleep 5
 clear
 echo '============================================================'
 echo '                   Sila Tunggu sebentar...                  '
-echo '                 Memulakan BBR CTech Didik...               '
+echo '                 Memulakan BBR YOLONET...               '
 echo '============================================================'
 sleep 2
 
