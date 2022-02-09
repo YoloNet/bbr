@@ -17,7 +17,7 @@ sleep 5
 clear
 echo '============================================================'
 echo '                   Sila Tunggu sebentar...                  '
-echo '                 Memulakan BBR YOLONET...               '
+echo '                 Memulakan BBR YOLONET...                   '
 echo '============================================================'
 sleep 2
 
@@ -93,12 +93,13 @@ Check_And_Add_Line "/etc/pam.d/common-sessio" "session required pam_limits.so"
 Check_And_Add_Line "/etc/profile" "ulimit -n 51200"
 echo "ulimit -n 51200"
 echo " Selesai Bossku."
+
 echo "#############################################"
 }
 Install_BBR
 Optimize_Parameters
 
-rm -f /root/BBR-YoloNet
+rm -f /root/BBR-YoloNet.sh
 echo '============================================================'
 echo '                       Sudah selesai!                       '
 echo '                 restart server bosku!                      '
