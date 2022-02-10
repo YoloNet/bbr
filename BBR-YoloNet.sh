@@ -88,7 +88,7 @@ echo "sysctl -p"
 ##############################
 Check_And_Add_Line "/etc/security/limits.conf" "* soft nofile 51200"
 Check_And_Add_Line "/etc/security/limits.conf" "* hard nofile 51200"
-Check_And_Add_Line "/etc/pam.d/common-sessio" "session required pam_limits.so"
+Check_And_Add_Line "/etc/pam.d/common-session" "session required pam_limits.so"
 Check_And_Add_Line "/etc/profile" "ulimit -n 51200"
 echo "ulimit -n 51200"
 echo " Selesai Bossku."
