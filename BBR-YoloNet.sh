@@ -98,9 +98,6 @@ echo "#############################################"
 Install_BBR
 Optimize_Parameters
 
-
-
-rm -f /root/BBR-YoloNet.sh
 echo '============================================================'
 echo '                       Sudah selesai!                       '
 echo '                 restart server bosku!                      '
